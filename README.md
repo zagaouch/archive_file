@@ -50,8 +50,9 @@ Follow these steps to set up the Laravel project:
    DB_DATABASE=your_database_name
    DB_USERNAME=your_username
    DB_PASSWORD=your_password
-   Run database migrations
+   
    ```
+   Run database migrations
    ```bash
    php artisan migrate
    ```
