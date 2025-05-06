@@ -46,10 +46,12 @@ Follow these steps to set up the Laravel project:
    ```
    Configure database
    Edit the .env file with your database credentials:
+   ```env
    DB_DATABASE=your_database_name
    DB_USERNAME=your_username
    DB_PASSWORD=your_password
    Run database migrations
+   ```
    ```bash
    php artisan migrate
    ```
@@ -63,8 +65,9 @@ Follow these steps to set up the Laravel project:
    ```
    
 ## Project Archive Structure
+```markdown
 project-archive/
-├── app/                  # Application code
+├── app/                  # Application code<br>
 │   ├── Console/          # Artisan commands
 │   ├── Http/             # Controllers, middleware
 │   └── Models/           # Database models
@@ -79,7 +82,7 @@ project-archive/
 ├── vendor/               # Composer dependencies
 ├── .env                  # Environment configuration
 └── .env.example          # Example environment file
-
+```
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks.
