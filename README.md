@@ -68,7 +68,7 @@ Follow these steps to set up the Laravel project:
 ## Project Archive Structure
 ```markdown
 project-archive/
-├── app/                  # Application code<br>
+├── app/                  # Application code
 │   ├── Console/          # Artisan commands
 │   ├── Http/             # Controllers, middleware
 │   └── Models/           # Database models
