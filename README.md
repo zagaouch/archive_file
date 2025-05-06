@@ -25,8 +25,8 @@ Follow these steps to set up the Laravel project:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your/repository.git
-   cd project-name
+   git clone https://github.com/zagaouch/archive_file.git
+   cd archive_file
    ```
    Install PHP dependencies
    ```bash
